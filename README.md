@@ -47,7 +47,7 @@ The dataset used in this project is the BCI Competition IV Dataset 2A. You can d
 2. **Run the main script**: Execute the script to start the training and evaluation process.
 
 ```bash
-python your_script_name.py
+python3 EEGNet_4Classes.py
 ```
 
 3. **Model Training and Evaluation**: The script will read the EEG data, preprocess it, train the EEGNet model using k-fold cross-validation, and evaluate the model's performance. The final trained model will be saved to disk.
