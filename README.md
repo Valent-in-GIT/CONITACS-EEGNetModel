@@ -1,6 +1,3 @@
-# CONITACS-EEGNetModel
-
-
 # README
 
 ## EEG Classification using EEGNet
@@ -36,6 +33,12 @@ pip install PyWavelets numpy==1.24.2 tqdm keras==2.15.0 tensorflow==2.15.0 sciki
 - `k_fold_split(X_tr, labels, n_splits)`: Splits the data into k folds for cross-validation.
 - `evaluate_model(model, x_test, y_test)`: Evaluates the model's performance and displays a confusion matrix and classification report.
 - `main()`: Main function to read data, preprocess it, train the model, and save the trained model.
+
+### Dataset
+
+The dataset used in this project is the BCI Competition IV Dataset 2A. You can download it from the following link:
+
+[BCI Competition IV Dataset 2A](https://www.bbci.de/competition/iv/#dataset1)
 
 ### Usage
 
