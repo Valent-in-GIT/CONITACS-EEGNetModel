@@ -57,7 +57,7 @@ python3 EEGNet_4Classes.py
 The trained model architecture and weights will be saved as:
 
 - `EEGNET_four_classes.json`
-- `EEGNET_four_classes_v1.h5`
+- `EEGNET_four_classes.h5`
 
 ### Example
 
